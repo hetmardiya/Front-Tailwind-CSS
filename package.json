@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+  "build": "npx tailwindcss -i ./src/input.css -o ./dist/style.css",
+  "deploy": "gh-pages -d dist"
+}
+
+}
